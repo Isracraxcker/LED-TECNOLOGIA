@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { MessageCircle, Phone, ShoppingCart, HelpCircle } from "lucide-react";
 
 const ContactPage = () => {
-  const phoneNumber = "593999999999";
+  const phoneNumber = "593989160612";
 
   const [mounted, setMounted] = useState(false);
 
