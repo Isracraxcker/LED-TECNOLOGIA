@@ -69,18 +69,7 @@ const Navbar = () => {
               </a>
             </div>
 
-            {/* 🛒 CARRITO */}
-            <Link
-              href="/cart"
-              className="relative hover:scale-105 transition"
-            >
-              <ShoppingCart />
-              {cartCount > 0 && (
-                <span className="absolute -top-2 -right-2 bg-green-500 text-white text-xs px-1.5 rounded-full">
-                  {cartCount}
-                </span>
-              )}
-            </Link>
+           
 
           </div>
         </div>
