@@ -1,0 +1,35 @@
+"use client";
+import { ArrowRight, StarIcon } from "lucide-react";
+import Image from "next/image";
+import Link from "next/link";
+import { useState } from "react";
+
+const ProductDescription = ({ product }) => {
+  const [selectedTab, setSelectedTab] = useState("Descripcion");
+
+  return (
+    <div className="my-18 text-sm text-slate-600">
+      {/* Tabs */}
+      <div className="flex border-b border-slate-200 mb-6 max-w-2xl">
+        {["Descripcion"].map((tab, index) => (
+          <button
+            className={`${tab === selectedTab ? "border-b-[1.5px] font-semibold" : "text-slate-400"} px-3 py-2 font-medium`}
+            key={index}
+            onClick={() => setSelectedTab(tab)}
+          >
+            {tab}
+          </button>
+        ))}
+      </div>
+
+      {/* Descripcion */}
+      {selectedTab === "Descripcion" && (
+        <p className="max-w-xl whitespace-pre-line">{product.description}</p>
+      )}
+
+      {/* Store Page */}
+    </div>
+  );
+};
+
+export default ProductDescription;
