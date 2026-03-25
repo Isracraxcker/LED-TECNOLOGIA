@@ -2,8 +2,7 @@ import gs_logo from "./gs_logo.jpg";
 import happy_store from "./happy_store.webp";
 import upload_area from "./upload_area.svg";
 import hero_model_img from "./hero_model_img.png";
-import hero_product_img1 from "./hero_product_img1.png";
-import hero_product_img2 from "./hero_product_img2.png";
+
 import product_img1 from "./product_img1.png";
 import product_img2 from "./product_img2.png";
 import product_img3 from "./product_img3.png";
@@ -52,12 +51,10 @@ import cabletc2 from "./cabletc2.png";
 import cabletc3 from "./cabletcstarlink.png";
 import cabletc3m from "./TCStarlink3M.png";
 
-
 export const assets = {
   upload_area,
   hero_model_img,
-  hero_product_img1,
-  hero_product_img2,
+
   gs_logo,
   product_img1,
   product_img2,
@@ -103,7 +100,6 @@ export const assets = {
   cabletc2,
   cabletc3,
   cabletc3m,
-  
 };
 
 export const categories = [
@@ -543,12 +539,12 @@ Nota: Este cable USB-C está diseñado específicamente para alimentar su Starli
 
 `,
     mrp: 111.99,
-    price: 60.00,
+    price: 60.0,
     images: [cabletc1, cabletc2, cabletc3],
     storeId: "seller_1",
     inStock: true,
     stock: 3,
-  
+
     store: dummyStoreData,
     category: "Starlink",
     rating: [...dummyRatingsData, ...dummyRatingsData],
@@ -556,7 +552,7 @@ Nota: Este cable USB-C está diseñado específicamente para alimentar su Starli
     updatedAt: "Sat Jul 21 2025 14:51:25 GMT+0530 (India Standard Time)",
   },
 
-   {
+  {
     id: "prod_12",
     name: "Cable Usb C A Dc Para Antena Starlink Mini 100w X 3 Metros Color Gris Oscuro",
     description: `El cable Mini USB-C de 3 m está diseñado para alimentar tu Starlink Mini en cualquier lugar mediante USB-C, reemplazando el cable de alimentación Mini de 15 m del kit Starlink Mini. Requiere una fuente de alimentación de 100 W (20 V/5 A).
@@ -566,13 +562,13 @@ Nota: Este cable USB-C está diseñado específicamente para alimentar su Starli
 
 
 `,
-    mrp: 45.00,
-    price: 35.00,
+    mrp: 45.0,
+    price: 35.0,
     images: [cabletc3m],
     storeId: "seller_1",
     inStock: true,
     stock: 1,
-  
+
     store: dummyStoreData,
     category: "Starlink",
     rating: [...dummyRatingsData, ...dummyRatingsData],
