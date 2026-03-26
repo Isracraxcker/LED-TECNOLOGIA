@@ -45,13 +45,15 @@ export default function FiltersSidebar({ filters, setFilters }) {
           }
         >
           <option value="">Todas</option>
+          <option value="Starlink"> Starlink</option>
+          <option value="Soportes Starlink">Soportes Starlink</option>
           <option value="Audifonos">Audifonos</option>
           <option value="Parlantes">Parlantes</option>
           <option value="Relojes">Relojes</option>
           <option value="Laptops">Portátiles</option>
           <option value="Celulares">Celulares</option>
           <option value="Cameras">Cámaras</option>
-          <option value="Starlink"> Starlink</option>
+          
         </select>
       </div>
     </div>

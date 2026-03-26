@@ -140,19 +140,18 @@ const Footer = () => {
       title: "CONTACTO",
       links: [
         {
-          text: " ledtechnologystorezamora@gmail.com",
-          path: "/",
-
+          text: "ledtechnologystorezamora@gmail.com",
+          path: "mailto:ledtechnologystorezamora@gmail.com",
           icon: MailIcon,
         },
         {
           text: "+593 98 016 0612",
-          path: "/",
+          path: "https://wa.me/+593989160612",
           icon: PhoneIcon,
         },
         {
-          text: "José Luis Tamayo y Diego de Vaca.",
-          path: "/",
+          text: "José Luis Tamayo y Diego de Vaca",
+          path: "https://maps.app.goo.gl/5C4cnUWNnZfDEmpb8",
           icon: MapPinIcon,
         },
       ],
@@ -178,7 +177,7 @@ const Footer = () => {
               <span className="text-purple-600">LED</span>Tecnologia
               <span className="text-purple-600 text-5xl leading-0">.</span>
             </Link>
-            <p className="max-w-[410px] mt-6 text-sm">
+            <p className="max-w-102.5 mt-6 text-sm">
               Bienvenido a LedTecnologia, tu destino definitivo para los gadgets
               más novedosos e inteligentes. Desde smartphones y relojes
               inteligentes hasta accesorios esenciales, te ofrecemos lo mejor en
@@ -207,12 +206,24 @@ const Footer = () => {
                   {section.links.map((link, i) => (
                     <li key={i} className="flex items-center gap-2">
                       {link.icon && <link.icon />}
-                      <Link
-                        href={link.path}
-                        className="hover:underline transition"
-                      >
-                        {link.text}
-                      </Link>
+                      {link.path.startsWith("http") ||
+                      link.path.startsWith("mailto") ? (
+                        <a
+                          href={link.path}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="hover:underline transition"
+                        >
+                          {link.text}
+                        </a>
+                      ) : (
+                        <Link
+                          href={link.path}
+                          className="hover:underline transition"
+                        >
+                          {link.text}
+                        </Link>
+                      )}
                     </li>
                   ))}
                 </ul>

@@ -51,6 +51,18 @@ import cabletc1 from "./cableoriginatc5m.png";
 import cabletc2 from "./cabletc2.png";
 import cabletc3 from "./cabletcstarlink.png";
 import cabletc3m from "./TCStarlink3M.png";
+import dc1 from "./starlindc3m.png";
+import dc2 from "./dc1.png";
+import dc3 from "./dc2.png";
+import tc5m from "./TC5M.png";
+import basetubo1 from "./basetubo1.png";
+import basetubo2 from "./basetubo2.png";
+import basetubo3 from "./basetubo.png";
+import dc15a from "./dc15m2.png";
+import dc15b from "./dc15m1.png";
+import dc15c from "./dc15m.png";
+import fuente from "./fuentedepoder.png";
+import soporte1 from "./giratoriometalico.png";
 
 export const assets = {
   upload_area,
@@ -102,6 +114,18 @@ export const assets = {
   cabletc2,
   cabletc3,
   cabletc3m,
+  dc1,
+  dc2,
+  dc3,
+  tc5m,
+  basetubo1,
+  basetubo2,
+  basetubo3,
+  dc15a,
+  dc15b,
+  dc15c,
+  fuente,
+  soporte1,
 };
 
 export const categories = [
@@ -573,6 +597,143 @@ Nota: Este cable USB-C está diseñado específicamente para alimentar su Starli
 
     store: dummyStoreData,
     category: "Starlink",
+    rating: [...dummyRatingsData, ...dummyRatingsData],
+    createdAt: "Sat Jul 21 2025 14:51:25 GMT+0530 (India Standard Time)",
+    updatedAt: "Sat Jul 21 2025 14:51:25 GMT+0530 (India Standard Time)",
+  },
+
+  {
+    id: "prod_13",
+    name: "Starlink Mini 3 m DC A DC Macho a Macho",
+    description: `El cable de alimentación Starlink Mini: este cable largo tiene un diseño de conector de alimentación CC de dos lados para alimentar Starlink mini, diseño de cable original para que coincida perfectamente con Starlink Mini y el enchufe del cargador, te aporta una experiencia de uso de alto nivel
+
+
+`,
+    mrp: 45,
+    price: 35,
+    images: [dc3, dc2, dc1],
+    storeId: "seller_1",
+    inStock: true,
+    stock: 2,
+
+    store: dummyStoreData,
+    category: "Starlink",
+    rating: [...dummyRatingsData, ...dummyRatingsData],
+    createdAt: "Sat Jul 21 2025 14:51:25 GMT+0530 (India Standard Time)",
+    updatedAt: "Sat Jul 21 2025 14:51:25 GMT+0530 (India Standard Time)",
+  },
+
+  {
+    id: "prod_14",
+    name: "Cable Usb C A Dc Para Antena Starlink Mini 100w X 5 Metros Color Gris Oscuro",
+    description: `El cable Mini USB-C de 5 m está diseñado para alimentar tu Starlink Mini en cualquier lugar mediante USB-C, reemplazando el cable de alimentación Mini de 15 m del kit Starlink Mini. Requiere una fuente de alimentación de 100 W (20 V/5 A).
+
+Nota: Este cable USB-C está diseñado específicamente para alimentar su Starlink Mini y no es adecuado para cargar dispositivos como teléfonos móviles.
+
+
+
+`,
+    mrp: 45.0,
+    price: 40.0,
+    images: [tc5m],
+    storeId: "seller_1",
+    inStock: true,
+    stock: 10,
+
+    store: dummyStoreData,
+    category: "Starlink",
+    rating: [...dummyRatingsData, ...dummyRatingsData],
+    createdAt: "Sat Jul 21 2025 14:51:25 GMT+0530 (India Standard Time)",
+    updatedAt: "Sat Jul 21 2025 14:51:25 GMT+0530 (India Standard Time)",
+  },
+
+  {
+    id: "prod_15",
+    name: "Base Adaptador Mástil Original Para Antena Starlink Mini",
+    description: `Base / Soporte Adaptador para Mástil Original para Antena Starlink Mini. Se trata de la Versión Reforzada con llave Allen. 
+    Compatible con todos los modelos de Starlink Mini. Accesorio OEM Starlink. Repuesto Original.
+
+
+
+`,
+    mrp: 25.0,
+    price: 20.0,
+    images: [basetubo1, basetubo2, basetubo3],
+    storeId: "seller_1",
+    inStock: true,
+    stock: 10,
+
+    store: dummyStoreData,
+    category: "Starlink",
+    rating: [...dummyRatingsData, ...dummyRatingsData],
+    createdAt: "Sat Jul 21 2025 14:51:25 GMT+0530 (India Standard Time)",
+    updatedAt: "Sat Jul 21 2025 14:51:25 GMT+0530 (India Standard Time)",
+  },
+
+  {
+    id: "prod_16",
+    name: "Cable De Corriente Dc Original Para Starlink Mini 15 Mts",
+    description: `Cable de corriente DC de 15 Mts Original para Starlink Mini. Accesorio OEM Starlink.
+     Repuesto Original.
+
+
+
+`,
+    mrp: 65.0,
+    price: 55.0,
+    images: [dc15a, dc15b, dc15c],
+    storeId: "seller_1",
+    inStock: true,
+    stock: 10,
+
+    store: dummyStoreData,
+    category: "Starlink",
+    rating: [...dummyRatingsData, ...dummyRatingsData],
+    createdAt: "Sat Jul 21 2025 14:51:25 GMT+0530 (India Standard Time)",
+    updatedAt: "Sat Jul 21 2025 14:51:25 GMT+0530 (India Standard Time)",
+  },
+
+  {
+    id: "prod_17",
+    name: "Fuente Transformador Starlink Mini X Original",
+    description: `TRANSFORMADOR ORIGINAL PARA STARLINK MINI / MINI X - Accesorio OEM Starlink Original
+
+
+
+`,
+    mrp: 45.0,
+    price: 40.0,
+    images: [fuente],
+    storeId: "seller_1",
+    inStock: true,
+    stock: 10,
+
+    store: dummyStoreData,
+    category: "Starlink",
+    rating: [...dummyRatingsData, ...dummyRatingsData],
+    createdAt: "Sat Jul 21 2025 14:51:25 GMT+0530 (India Standard Time)",
+    updatedAt: "Sat Jul 21 2025 14:51:25 GMT+0530 (India Standard Time)",
+  },
+
+  {
+    id: "prod_18",
+    name: "Soporte Giratorio Mini Pivot Mount Starlink",
+    description: `El soporte giratorio para Starlink Mini es perfecto para la instalación en techos inclinados y con tejas. 
+    El mecanismo del soporte giratorio fue diseñado para facilitar su uso y ofrecer flexibilidad. Permite un ajuste preciso que se adapta a varios ángulos y direcciones para maximizar el desempeño de su antena Starlink.
+    
+    El soporte giratorio está diseñado para una fácil instalación e incluye los elementos de montaje necesarios e instrucciones claras y sencillas para garantizar un proceso de instalación sin complicaciones.
+
+
+`,
+    mrp: 95.0,
+    price: 89.0,
+    images: [soporte1],
+    storeId: "seller_1",
+    inStock: true,
+    stock: 2,
+
+    store: dummyStoreData,
+    category: "Soportes Starlink",
     rating: [...dummyRatingsData, ...dummyRatingsData],
     createdAt: "Sat Jul 21 2025 14:51:25 GMT+0530 (India Standard Time)",
     updatedAt: "Sat Jul 21 2025 14:51:25 GMT+0530 (India Standard Time)",

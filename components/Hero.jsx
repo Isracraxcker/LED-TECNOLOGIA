@@ -30,7 +30,6 @@ const Hero = () => {
               <p>Empiece desde</p>
               <p className="text-3xl">{currency}9.99</p>
             </div>
-            
           </div>
           <Image
             className="sm:absolute bottom-0 right-0 md:right-10 w-full sm:max-w-sm"
@@ -53,7 +52,12 @@ const Hero = () => {
                 />{" "}
               </p>
             </div>
-            <Image className="w-35" src={assets.hero_product_img1} alt="" loading="eager" />
+            <Image
+              className="w-35"
+              src={assets.hero_product_img1}
+              alt=""
+              loading="eager"
+            />
           </div>
           <div className="flex-1 flex items-center justify-between w-full bg-blue-200 rounded-3xl p-6 px-8 group">
             <div>
@@ -68,7 +72,12 @@ const Hero = () => {
                 />{" "}
               </p>
             </div>
-            <Image className="w-35" src={assets.hero_product_img2} alt="" loading="eager"/>
+            <Image
+              className="w-35"
+              src={assets.hero_product_img2}
+              alt=""
+              loading="eager"
+            />
           </div>
         </div>
       </div>
