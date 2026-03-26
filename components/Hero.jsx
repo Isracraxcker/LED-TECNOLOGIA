@@ -23,7 +23,7 @@ const Hero = () => {
                 size={16}
               />
             </div>
-            <h2 className="text-3xl sm:text-5xl leading-[1.2] my-3 font-medium bg-gradient-to-r from-slate-600 to-[#A0FF74] bg-clip-text text-transparent max-w-xs  sm:max-w-md">
+            <h2 className="text-3xl sm:text-5xl leading-[1.2] my-3 font-medium bg-linear-to-r from-slate-600 to-[#A0FF74] bg-clip-text text-transparent max-w-xs  sm:max-w-md">
               Dispositivos que te encantarán. Precios en los que confiarás.
             </h2>
             <div className="text-slate-800 text-sm font-medium mt-4 sm:mt-8">
@@ -42,7 +42,7 @@ const Hero = () => {
         <div className="flex flex-col md:flex-row xl:flex-col gap-5 w-full xl:max-w-sm text-sm text-slate-600">
           <div className="flex-1 flex items-center justify-between w-full bg-orange-200 rounded-3xl p-6 px-8 group">
             <div>
-              <p className="text-3xl font-medium bg-gradient-to-r from-slate-800 to-[#FFAD51] bg-clip-text text-transparent max-w-40">
+              <p className="text-3xl font-medium bg-linear-to-r from-slate-800 to-[#FFAD51] bg-clip-text text-transparent max-w-40">
                 Mejores productos
               </p>
               <p className="flex items-center gap-1 mt-4">
@@ -57,7 +57,7 @@ const Hero = () => {
           </div>
           <div className="flex-1 flex items-center justify-between w-full bg-blue-200 rounded-3xl p-6 px-8 group">
             <div>
-              <p className="text-3xl font-medium bg-gradient-to-r from-slate-800 to-[#78B2FF] bg-clip-text text-transparent max-w-40">
+              <p className="text-3xl font-medium bg-linear-to-r from-slate-800 to-[#78B2FF] bg-clip-text text-transparent max-w-40">
                 10% de descuento
               </p>
               <p className="flex items-center gap-1 mt-4">
