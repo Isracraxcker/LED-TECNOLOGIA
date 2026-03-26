@@ -304,7 +304,7 @@ Incluye un router wifi incorporado, bajo consumo de energía, entrada de aliment
     `,
     mrp: 250,
     price: 229.99,
-    stock: 10,
+    stock: 9,
     images: [mini1_img, mini2_img, mini3_img, mini4_img],
     storeId: "seller_1",
     inStock: true,
