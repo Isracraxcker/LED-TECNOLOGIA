@@ -2,7 +2,8 @@ import gs_logo from "./gs_logo.jpg";
 import happy_store from "./happy_store.webp";
 import upload_area from "./upload_area.svg";
 import hero_model_img from "./hero_model_img.png";
-
+import hero_product_img1 from "./hero_product_img1.png";
+import hero_product_img2 from "./hero_product_img2.png";
 import product_img1 from "./product_img1.png";
 import product_img2 from "./product_img2.png";
 import product_img3 from "./product_img3.png";
@@ -54,7 +55,8 @@ import cabletc3m from "./TCStarlink3M.png";
 export const assets = {
   upload_area,
   hero_model_img,
-
+  hero_product_img1,
+  hero_product_img2,
   gs_logo,
   product_img1,
   product_img2,

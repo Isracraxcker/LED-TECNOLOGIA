@@ -36,6 +36,7 @@ const Hero = () => {
             className="sm:absolute bottom-0 right-0 md:right-10 w-full sm:max-w-sm"
             src={assets.hero_model_img}
             alt=""
+            loading="eager"
           />
         </div>
         <div className="flex flex-col md:flex-row xl:flex-col gap-5 w-full xl:max-w-sm text-sm text-slate-600">
@@ -52,7 +53,7 @@ const Hero = () => {
                 />{" "}
               </p>
             </div>
-            <Image className="w-35" src={assets.hero_product_img1} alt="" />
+            <Image className="w-35" src={assets.hero_product_img1} alt="" loading="eager" />
           </div>
           <div className="flex-1 flex items-center justify-between w-full bg-blue-200 rounded-3xl p-6 px-8 group">
             <div>
@@ -67,7 +68,7 @@ const Hero = () => {
                 />{" "}
               </p>
             </div>
-            <Image className="w-35" src={assets.hero_product_img2} alt="" />
+            <Image className="w-35" src={assets.hero_product_img2} alt="" loading="eager"/>
           </div>
         </div>
       </div>
